@@ -94,7 +94,7 @@
             </div>
             <div class="col-12">
               <div class="swiper testimonial-slider">
-                <div class="swiper-wrapper">
+                <div class="">
                   {{ range .Params.testimonials }}
                     <div class="swiper-slide">
                       <div
@@ -111,9 +111,6 @@
                               fill="currentColor" />
                           </svg>
                         </div>
-                        <blockquote class="mt-8">
-                          {{ .content | markdownify }}
-                        </blockquote>
                         <div class="mt-11 flex items-center">
                           <div class="text-dark dark:text-white">
                             {{ partial "image" (dict "Src" .avatar "Size" "50x50" "Class" "rounded-full" "Alt" .name) }}
@@ -127,6 +124,10 @@
                             </p>
                           </div>
                         </div>
+                        <blockquote class="mt-8">
+                          {{ .content | markdownify }}
+                        </blockquote>
+
                       </div>
                     </div>
                   {{ end }}
