@@ -1,51 +1,53 @@
 ---
 # Banner
 banner:
-  title: "The Ultimate Starter Template You Need To Start Your Hugo Project"
-  content: "Hugoplate is a free starter template built with Hugo and TailwindCSS, providing everything you need to jumpstart your Hugo project and save valuable time."
+  title: "Welcome to the site of Distant Voices Touring Theatre!"
+  content: "***WHO WE ARE*** 
+  <br> 
+  Distant Voices Touring Theatre (DVTT) is a professional non-profit arts organization dedicated to producing original works for the the stage that bring to life historical issues that still resonate today. DVTT performs in schools, churches, senior centers, libraries and other venues.
+  <br>
+  <br>
+  ***WHAT WE DO***
+<li>HIGH QUALITY PERFORMANCES</li>
+<li>EDUCATE ~ CHILDREN, YOUNG ADULTS & ADULTS</li>
+<li>REFLECT UPON CURRENT ISSUES</li>
+<li>PRE-SHOW WORKSHOPS IN SCHOOLS</li>
+<li>PROVIDE HISTORICAL AND POLITICAL BACKGROUND</li>
+<li>INTERACTIVE LEARNING ENVIRONMENT</li>
+<li>WORK WITH EDUCATORS TO COMPLEMENT CLASSROOM CURRICULUM</li>
+<li>QUESTION AND ANSWER SESSIONS</li>
+<br>"
   image: "/images/banner.png"
   button:
-    enable: true
+    enable: false
     label: "Get Started For Free"
     link: "https://github.com/zeon-studio/hugoplate"
 
 # Features
 features:
-  - title: "What's Included in Hugoplate"
+  - title: "Distant Voices"
     image: "/images/service-1.png"
-    content: "Hugoplate is a comprehensive starter template that includes everything you need to get started with your Hugo project. What's Included in Hugoplate"
+    content: "The Distant Voices production is based on the diaries of Hiroaki Nishimura written during his experiences when he was incarcerated in the Japanese American Concentration Camps of World War II.  In his later years Hiroaki translated his journals into English for his daughter, Julie Nishimura. From those journals comes a powerful story that will keep audiences thinking long after the performance has ended.  
+Hiroaki's daughter, Julie, and her husband, playwright Danny Peak, created Distant Voices, a spoken performance set to music, to tell Hiroaki's story and to ensure that this dark period in American history is never forgotten."
     bulletpoints:
-      - "10+ Pre-build pages"
-      - "95+ Google Pagespeed Score"
-      - "Build with Hugo and TailwindCSS for easy and customizable styling"
-      - "Fully responsive on all devices"
-      - "SEO-optimized for better search engine rankings"
-      - "**Open-source and free** for personal and commercial use"
     button:
       enable: false
       label: "Get Started Now"
       link: "#"
 
-  - title: "Discover the Key Features Of Hugo"
+  - title: "September Echoes"
     image: "/images/service-2.png"
-    content: "Hugo is an all-in-one web framework for building fast, content-focused websites. It offers a range of exciting features for developers and website creators. Some of the key features are:"
+    content: "September Echoes is an original play written by Danny Peak, who was a champion of social justice.  Based on interviews with people in the aftermath of the terror attacks of September 11, 2001, this production is a harsh reminder of how human rights and dignity can be stripped from people simply because of how they worship, the color of their skin and the way that they dress."
     bulletpoints:
-      - "Zero JS, by default: No JavaScript runtime overhead to slow you down."
-      - "Customizable: Tailwind, MDX, and 100+ other integrations to choose from."
-      - "UI-agnostic: Supports React, Preact, Svelte, Vue, Solid, Lit and more."
     button:
-      enable: true
+      enable: false
       label: "Get Started Now"
       link: "https://github.com/zeon-studio/hugoplate"
 
-  - title: "The Top Reasons to Choose Hugo for Your Hugo Project"
+  - title: "2002 Peacemakers Among Us Reward"
     image: "/images/service-3.png"
-    content: "With Hugo, you can build modern and content-focused websites without sacrificing performance or ease of use."
+    content: "paceminterris.org"
     bulletpoints:
-      - "Instantly load static sites for better user experience and SEO."
-      - "Intuitive syntax and support for popular frameworks make learning and using Hugo a breeze."
-      - "Use any front-end library or framework, or build custom components, for any project size."
-      - "Built on cutting-edge technology to keep your projects up-to-date with the latest web standards."
     button:
       enable: false
       label: ""
