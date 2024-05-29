@@ -1,6 +1,6 @@
 ######################## default configuration ####################
 # The base URL of your site (required). This will be prepended to all relative URLs.
-baseURL = "mirmeep.github.io/distant-voices-touring-theatre"
+baseURL = "https://mirmeep.github.io/distant-voices-touring-theatre/"
 # Title of your website (required).
 title = "Distant Voices Touring Theatre"
 # Your theme name
